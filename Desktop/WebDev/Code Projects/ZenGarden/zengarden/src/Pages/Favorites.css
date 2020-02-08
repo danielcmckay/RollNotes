@@ -1,0 +1,35 @@
+.Favorites {
+  margin-left: 30%;
+  color: white;
+  font-size: 1.25rem;
+  overflow: scroll;
+}
+
+.FavoritesList {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.FavoritesList li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.FavoritesList li i {
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .Favorites {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+    overflow: scroll;
+    color: #444;
+  }
+  .FavoritesList {
+    margin-left: 0;
+    padding: 10px 25px;
+  }
+}
