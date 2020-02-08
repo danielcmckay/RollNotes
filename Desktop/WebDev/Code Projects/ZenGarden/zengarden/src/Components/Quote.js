@@ -37,7 +37,7 @@ const Quote = quoteProps => {
 
   const [show, set] = useState(true);
   const transitions = useTransition(state.quote, null, {
-    from: { position: "fixed", top: "120px", right: "11%", opacity: 0 },
+    from: { position: "fixed", top: "120px", right: "10%", opacity: 0 },
     enter: { opacity: 1 },
     leave: { opacity: 0 },
     delay: 3000,
